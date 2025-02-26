@@ -1,0 +1,24 @@
+{
+    "development": {
+      "username": "root",
+      "password": "admin",
+      "database": "incident_management",
+      "host": "localhost",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "root",
+      "password": "your_password",
+      "database": "incident_management_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "your_prod_user",
+      "password": "your_prod_password",
+      "database": "incident_management_prod",
+      "host": "your_production_host",
+      "dialect": "mysql"
+    }
+  }
+  
